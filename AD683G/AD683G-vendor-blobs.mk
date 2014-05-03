@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
     artagent \
     diag_dci_client \
     diag_klog \
-    diag_mdlog
+    diag_mdlog \
+    diag_uart_log
 
 # binary
 PRODUCT_PACKAGES += \
