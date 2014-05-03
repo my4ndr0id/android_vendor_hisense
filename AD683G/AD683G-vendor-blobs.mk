@@ -22,7 +22,8 @@ endif
 PRODUCT_PACKAGES += \
     memsicd \
     diag_atc \
-    utpd
+    utpd \
+    ftmdaemon
 
 # binary
 PRODUCT_PACKAGES += \
