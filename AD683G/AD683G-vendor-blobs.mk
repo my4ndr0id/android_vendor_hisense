@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
     utpd \
     ftmdaemon \
     athtestcmd \
-    artagent
+    artagent \
+    diag_dci_client
 
 # binary
 PRODUCT_PACKAGES += \
