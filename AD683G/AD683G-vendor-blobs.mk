@@ -24,7 +24,8 @@ PRODUCT_PACKAGES += \
     diag_atc \
     utpd \
     ftmdaemon \
-    athtestcmd
+    athtestcmd \
+    artagent
 
 # binary
 PRODUCT_PACKAGES += \
