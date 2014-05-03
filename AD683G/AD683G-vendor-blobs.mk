@@ -12,12 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# kernel modules
-ifeq ($(TARGET_PREBUILT_KERNEL),true)
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/hisense/AD683G/proprietary/system/lib/modules,system/lib/modules)
-endif
-
 # binary
 PRODUCT_PACKAGES += \
     memsicd \
@@ -36,3 +30,6 @@ PRODUCT_PACKAGES += \
     testmode.sh \
     wifitest_recv.sh \
     wifitest_send.sh
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/hisense/AD683G/proprietary/system/lib,system/lib)
