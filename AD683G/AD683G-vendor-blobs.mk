@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
     athtestcmd \
     artagent \
     diag_dci_client \
-    diag_klog
+    diag_klog \
+    diag_mdlog
 
 # binary
 PRODUCT_PACKAGES += \
