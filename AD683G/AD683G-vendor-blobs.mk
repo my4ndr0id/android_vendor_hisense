@@ -20,7 +20,8 @@ PRODUCT_PACKAGES += \
     ftmdaemon \
     athtestcmd \
     artagent \
-    diag_dci_client
+    diag_dci_client \
+    diag_klog
 
 # binary
 PRODUCT_PACKAGES += \
