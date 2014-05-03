@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
     memsicd \
     diag_atc \
     utpd \
-    ftmdaemon
+    ftmdaemon \
+    athtestcmd
 
 # binary
 PRODUCT_PACKAGES += \
