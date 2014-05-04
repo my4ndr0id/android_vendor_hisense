@@ -23,7 +23,9 @@ PRODUCT_PACKAGES += \
     diag_dci_client \
     diag_klog \
     diag_mdlog \
-    diag_uart_log
+    diag_uart_log \
+    fastTestUsingKernel \
+    stop_mdlog
 
 # binary
 PRODUCT_PACKAGES += \
