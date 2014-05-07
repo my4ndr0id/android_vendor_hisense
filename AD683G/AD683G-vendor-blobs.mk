@@ -37,5 +37,8 @@ PRODUCT_PACKAGES += \
     wifitest_recv.sh \
     wifitest_send.sh
 
+PRODUCT_PACKAGES += \
+    libGoogleAnalyticsV2
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/hisense/AD683G/proprietary/system/lib,system/lib)
