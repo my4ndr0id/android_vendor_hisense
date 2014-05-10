@@ -41,4 +41,6 @@ PRODUCT_PACKAGES += \
     libGoogleAnalyticsV2
 
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/hisense/AD683G/proprietary/system/lib,system/lib)
+    $(call find-copy-subdir-files,*,vendor/hisense/AD683G/proprietary/system/lib,system/lib) \
+    $(call find-copy-subdir-files,*,vendor/hisense/AD683G/proprietary/system/usr,system/usr)
+
